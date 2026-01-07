@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ryze.AI</title>
+    <link rel="stylesheet" href="ai.css">
+    <!-- ADD Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- ADD Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#home" class="logo">
+                    <i class="fas fa-robot" style="margin-right: 10px; font-size: 1.8rem;"></i>
+                    <span>Get-Ryze.ai</span>
+                </a>
+                
+                <button class="toggle-btn" id="toggleBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <div class="nav-links" id="navLinks">
+                    <a href="#home" class="active">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#testimonials">Testimonials</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#about">About</a>
+                </div>
+                
+                <div class="nav-buttons">
+                    <a href="#" class="btn btn-outline" style="color: white; border-color: white;">Login</a>
+                    <a href="#demo" class="btn btn-primary" style="background-color: var(--accent-color); border-color: var(--accent-color);">Book a Demo</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">AI-Powered Business Growth Simplified</h1>
+                    <p class="hero-subtitle">Get-Ryze.ai transforms complex data into actionable insights, helping businesses make smarter decisions and accelerate growth.</p>
+                    <div class="hero-buttons">
+                        <a href="#demo" class="btn btn-primary btn-large">Start Free Trial</a>
+                        <a href="#features" class="btn btn-outline btn-large">Learn More</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <h3>500+</h3>
+                            <p>Happy Clients</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>98%</h3>
+                            <p>Satisfaction Rate</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>24/7</h3>
+                            <p>AI Support</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <!-- Using Unsplash AI image -->
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" 
+                         alt="AI Business Dashboard" 
+                         style="width: 100%; height: 400px; object-fit: cover; border-radius: var(--radius-lg); box-shadow: var(--shadow-xl);">
+                    <div class="image-caption" style="text-align: center; margin-top: 1rem; color: var(--gray-color); font-size: 0.9rem;">
+                        Advanced AI Analytics Dashboard
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- Auto-scrolling logo carousel -->
+<div class="carousel-container">
+    <div class="carousel-box">
+      <div class="carousel-track">
+        <!-- First set of logos -->
+        <div class="logo-item">
+          <div class="logo-text">votif</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">ie Ritma</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">Speedy TETRA</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">WILLYX</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">caleyx</div>
+        </div>
+        
+        <!-- Duplicate set for seamless scrolling -->
+        <div class="logo-item">
+          <div class="logo-text">votif</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">ie Ritma</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">Speedy TETRA</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">WILLYX</div>
+        </div>
+        <div class="logo-item">
+          <div class="logo-text">caleyx</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Powerful Features for Modern Businesses</h2>
+                <p class="section-subtitle">Our AI-driven platform offers everything you need to optimize operations and drive growth.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Predictive Analytics</h3>
+                    <p>Forecast trends and make data-driven decisions with our advanced AI algorithms.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Automated Workflows</h3>
+                    <p>Streamline repetitive tasks and processes with intelligent automation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Secure & Compliant</h3>
+                    <p>Enterprise-grade security with compliance for all major regulations.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Mobile Ready</h3>
+                    <p>Access your dashboard and insights from any device, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+   
+<section id="gallery" class="gallery">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Wall of Love</h2>
+            <p class="section-subtitle">See what our clients say about our AI solutions</p>
+        </div>
+        
+        <div class="gallery-grid">
+            <!-- Card 1: RYZE Performance -->
+            <div class="gallery-card featured">
+                <div class="card-header">
+                    <h3>Performance Results</h3>
+                    <span class="badge">+63%</span>
+                </div>
+                <div class="card-content">
+                    <p class="quote">"RYZE'S AI-DRIVEN ADS OUTPERFORM HUMAN OPTIMIZATION BY A HUGE MARGIN."</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-value">+63%</span>
+                            <span class="stat-label">better ROAS</span>
+                        </div>
+                    </div>
+                    <div class="client">
+                        <div class="client-info">
+                            <span class="client-name">Speedy</span>
+                            <span class="client-desc">Got the whole team up and running</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 2: Google Summit -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>Partnership Recognition</h3>
+                    <span class="badge">Google</span>
+                </div>
+                <div class="card-content">
+                    <div class="logo-container">
+                        <div class="logo">Google</div>
+                    </div>
+                    <p class="quote">Premier Partner Summit</p>
+                    <div class="event-details">
+                        <p>Premier Partner Summit! Singapore</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 3: Daniel Roser -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>Client Testimonial</h3>
+                    <span class="badge">★★★★★</span>
+                </div>
+                <div class="card-content">
+                    <div class="client">
+                        <div class="client-avatar">DR</div>
+                        <div class="client-info">
+                            <span class="client-name">Daniel Roser</span>
+                            <span class="client-title">GB • 7 reviews</span>
+                        </div>
+                    </div>
+                    <p class="testimonial">"Found wasted spend in search terms we'd never have caught manually. Cut those, reallocated budget. ROAS up 45%"</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            
+            <!-- Card 4: Roger Dunn -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>Team Efficiency</h3>
+                    <span class="badge">★★★★★</span>
+                </div>
+                <div class="card-content">
+                    <div class="client">
+                        <div class="client-avatar">RD</div>
+                        <div class="client-info">
+                            <span class="client-name">Roger Dunn</span>
+                            <span class="client-title">Global Performance Lead - Rivert</span>
+                        </div>
+                    </div>
+                    <p class="testimonial">"We were drowning with 7 people. Got back so many hours each week from reporting. Finally have bandwidth to focus on actual strategy"</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            
+            <!-- Card 5: Daniel Amezquita -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>CTR Improvement</h3>
+                    <span class="badge">245%</span>
+                </div>
+                <div class="card-content">
+                    <div class="client">
+                        <div class="client-avatar">DA</div>
+                        <div class="client-info">
+                            <span class="client-name">Daniel Amezquita</span>
+                            <span class="client-title">Global Ads Strategy - Glava</span>
+                        </div>
+                    </div>
+                    <p class="testimonial">"Broke down performance by asset—thumbnails, headlines, everything. Suggested swaps based on real data. Our CTR basically doubled."</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-value">245%</span>
+                            <span class="stat-label">CTR Improvement</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Card 6: Elena M. -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>Tracking Fix</h3>
+                    <span class="badge">★★★★★</span>
+                </div>
+                <div class="card-content">
+                    <div class="client">
+                        <div class="client-avatar">EM</div>
+                        <div class="client-info">
+                            <span class="client-name">Elena M.</span>
+                            <span class="client-title">CMO @ TechFlow</span>
+                        </div>
+                    </div>
+                    <p class="testimonial">"Caught that our conversion tracking was double-counting. We had no idea for like 3 months. Fixed it and everything made way more sense"</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+            
+            <!-- Card 7: Daniel Roser (Duplicate) -->
+            <div class="gallery-card">
+                <div class="card-header">
+                    <h3>ROAS Improvement</h3>
+                    <span class="badge">45%</span>
+                </div>
+                <div class="card-content">
+                    <div class="client">
+                        <div class="client-avatar">DR</div>
+                        <div class="client-info">
+                            <span class="client-name">Daniel Roser</span>
+                            <span class="client-title">GB • 7 reviews</span>
+                        </div>
+                    </div>
+                    <p class="testimonial">"Found wasted spend in search terms we'd never have caught manually. Cut those, reallocated budget. ROAS up 45%"</p>
+                    <div class="stars">★★★★★</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Trusted by Industry Leaders</h2>
+                <p class="section-subtitle">See what our clients say about their experience with Get-Ryze.ai</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Get-Ryze.ai transformed how we analyze customer data. Our efficiency increased by 40% within the first month."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--primary-light); display: flex; align-items: center; justify-content: center; color: white;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>Sarah Johnson</h4>
+                            <p>CTO, TechSolutions Inc.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"The predictive analytics feature helped us identify new market opportunities we had completely missed before."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--primary-light); display: flex; align-items: center; justify-content: center; color: white;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>Michael Chen</h4>
+                            <p>CEO, GrowthLabs</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"Implementation was seamless, and the support team was incredibly helpful throughout the entire process."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div style="width: 50px; height: 50px; border-radius: 50%; background-color: var(--primary-light); display: flex; align-items: center; justify-content: center; color: white;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <h4>Alexis Rodriguez</h4>
+                            <p>Operations Director, RetailPlus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Simple, Transparent Pricing</h2>
+                <p class="section-subtitle">Choose the plan that's right for your business. All plans include a 14-day free trial.</p>
+            </div>
+            
+            <div class="pricing-grid">
+                <!-- Starter Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <p>Perfect for small businesses getting started with AI</p>
+                        <div class="price">
+                            <span class="amount">$49</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 5 users</li>
+                            <li><i class="fas fa-check"></i> Basic analytics dashboard</li>
+                            <li><i class="fas fa-check"></i> 10,000 monthly data points</li>
+                            <li><i class="fas fa-check"></i> Email support</li>
+                            <li><i class="fas fa-check"></i> Standard reports</li>
+                            <li><i class="fas fa-times"></i> <span class="feature-disabled">Predictive analytics</span></li>
+                            <li><i class="fas fa-times"></i> <span class="feature-disabled">API access</span></li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-outline">Start Free Trial</a>
+                    </div>
+                </div>
+                
+                <!-- Professional Plan -->
+                <div class="pricing-card featured">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <p>Ideal for growing businesses with advanced needs</p>
+                        <div class="price">
+                            <span class="amount">$99</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 20 users</li>
+                            <li><i class="fas fa-check"></i> Advanced analytics dashboard</li>
+                            <li><i class="fas fa-check"></i> 100,000 monthly data points</li>
+                            <li><i class="fas fa-check"></i> Priority email & chat support</li>
+                            <li><i class="fas fa-check"></i> Custom reports</li>
+                            <li><i class="fas fa-check"></i> Predictive analytics</li>
+                            <li><i class="fas fa-check"></i> Basic API access</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#" class="btn btn-primary">Start Free Trial</a>
+                    </div>
+                </div>
+                
+                <!-- Enterprise Plan -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <p>For large organizations with complex requirements</p>
+                        <div class="price">
+                            <span class="amount">Custom</span>
+                            <span class="period">pricing</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited users</li>
+                            <li><i class="fas fa-check"></i> Custom analytics dashboard</li>
+                            <li><i class="fas fa-check"></i> Unlimited data points</li>
+                            <li><i class="fas fa-check"></i> 24/7 phone & dedicated support</li>
+                            <li><i class="fas fa-check"></i> Advanced custom reports</li>
+                            <li><i class="fas fa-check"></i> Advanced predictive analytics</li>
+                            <li><i class="fas fa-check"></i> Full API access</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-cta">
+                        <a href="#demo" class="btn btn-outline">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Get-Ryze.ai</h2>
+                <p class="section-subtitle">We're on a mission to democratize AI-powered business intelligence for companies of all sizes.</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Mission</h3>
+                    <p>To make advanced AI tools accessible to every business, regardless of size or technical expertise.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Our Team</h3>
+                    <p>Experts in AI, data science, and business intelligence with decades of combined experience.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Our Values</h3>
+                    <p>Innovation, integrity, and customer success drive everything we do.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Global Reach</h3>
+                    <p>Serving businesses in over 50 countries with localized support and solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="demo" class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Transform Your Business with AI?</h2>
+                <p>Join thousands of companies already using Get-Ryze.ai to drive growth and efficiency.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn btn-primary btn-large">Book a Demo</a>
+                    <a href="#pricing" class="btn btn-outline btn-large">View Pricing</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="#home" class="logo">
+                        <i class="fas fa-robot" style="margin-right: 10px; font-size: 1.8rem;"></i>
+                        <span>Get-Ryze.ai</span>
+                    </a>
+                    <p>AI-powered business intelligence platform helping companies make data-driven decisions and accelerate growth.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#demo">Book a Demo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">GDPR Compliance</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Get-Ryze.ai. All rights reserved.</p>
+                <p>Designed for internship assignment submission.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Gallery Modal -->
+    <div class="modal" id="galleryModal">
+        <div class="modal-content">
+            <button class="close-modal" id="closeModal">&times;</button>
+            <img class="modal-img" id="modalImg" src="" alt="">
+        </div>
+    </div>
+    </body>
+    </html>
